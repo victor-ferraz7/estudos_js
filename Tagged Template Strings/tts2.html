@@ -1,0 +1,12 @@
+<body>
+    <script>
+        var a = 3
+        var b = 5
+
+        function tag(strings, ...values){
+            return "O valor que vai ser retornado vai ser Bazinga, independente o que vier depois da tag :* ";
+        }
+
+        document.body.innerHTML = tag`Hello ${a + b} world ${a * b}`;
+    </script>
+</body>
